@@ -1,0 +1,47 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    background: url('./resort.jpg') no-repeat center center / cover fixed;
+}
+.text {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: large;
+}
+.textonly {
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.textfew {
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.white-brown-button {
+    background-color: white; /* Button background color */
+    color: chocolate; /* Text color */
+    padding: 10px 20px; /* Adjusts the padding inside the button */
+    font-size: 16px; /* Adjusts the font size */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+    transition: background-color 0.3s, color 0.3s; /* Optional: adds a transition effect */
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
