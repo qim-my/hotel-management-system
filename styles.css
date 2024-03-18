@@ -1,0 +1,47 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* styles.css */
+body {
+    background-color: wheat;
+}
+
+
+/* Basic styling */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+}
+
+.text,
+.image {
+    width: 50%;
+    padding: 10px;
+}
+
+.text p,
+.image p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.image img {
+    max-width: 100%;
+    border: 1px solid wheat;
+    border-radius: 5px;
+}
