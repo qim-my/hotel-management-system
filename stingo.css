@@ -1,5 +1,7 @@
 body {
     background: url('./background.1.jpeg') no-repeat center center / cover fixed;
+    color: white;
+    font-size: large;
   }
 .text {
  color: white;
@@ -22,11 +24,23 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    padding-left: 200px;
+    padding-left: 500px;
     padding-top: 100px;
   }
-  
-  
-  
+  .surname {
+    padding-bottom: 20px;
+  }
+  .first {
+    padding-bottom: 20px;
+  }
+  .names {
+    padding-bottom: 20px;
+  }
+  .email {
+    padding-bottom: 20px;
+  }
+  .mobile {
+    padding-bottom: 20px;
+  }
   
   
