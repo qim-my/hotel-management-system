@@ -1,0 +1,32 @@
+body {
+    background: url('./background.1.jpeg') no-repeat center center / cover fixed;
+  }
+.text {
+ color: white;
+ text-align: center;
+ padding-top: 100px;
+ font-weight: bold;
+ font-size: large;
+}  
+.textonly {
+    color: white;
+    text-align: center;
+    text-align: 5px;
+    padding-top: 0px;
+    font-size: xx-large;
+    font-weight: bolder
+}
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 200px;
+    padding-top: 100px;
+  }
+  
+  
+  
+  
+  
